@@ -29,6 +29,12 @@ To facilitate efficient teamwork and structured preparation, the repository is o
 │   └── README.md
 └── writing/            # Preparation materials for Writer
     └── README.md
+    └── Code Templates for Plots
+        └── Code Templates for the IMO
+        └── Code Reproductions for O Awards
+    └── Paper Templates
+        └── LaTeX Version
+        └── Word Version
 ```
 
 ---
