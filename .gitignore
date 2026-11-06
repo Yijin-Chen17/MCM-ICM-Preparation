@@ -1,0 +1,159 @@
+# ==============================================================================
+# MCM/ICM Mathematical Contest in Modeling - General .gitignore
+# 美赛数学建模竞赛备赛仓库通用忽略规则
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Python 编译文件与缓存 (Bytecode & Caches)
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# 2. 虚拟环境 (Virtual Environments)
+# ------------------------------------------------------------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda/
+miniconda/
+
+# ------------------------------------------------------------------------------
+# 3. Jupyter Notebook 缓存与检查点
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+
+# ------------------------------------------------------------------------------
+# 4. LaTeX 编译中间文件 (Writing / 论文排版必备)
+# ------------------------------------------------------------------------------
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.vrb
+*.run.xml
+*.bcf
+*.lot
+*.lof
+*.xdv
+*.fmt
+*.fot
+
+# ------------------------------------------------------------------------------
+# 5. 编辑器与集成开发环境 (IDEs & Editors)
+# ------------------------------------------------------------------------------
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ, CLion 等)
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------------------------------------------------------
+# 6. 操作系统生成文件 (OS Generated Files)
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ------------------------------------------------------------------------------
+# 7. Microsoft Office 临时锁定文件 (Word / Excel 协同编辑)
+# ------------------------------------------------------------------------------
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.doc
+~$*.xls
+~$*.ppt
+
+# ------------------------------------------------------------------------------
+# 8. 单元测试、代码覆盖率与图表缓存 (Testing & Visualization)
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.matplotlib/
+
+# ------------------------------------------------------------------------------
+# 9. 本地临时文件夹与赛场草稿 (Scratch / Temp)
+# ------------------------------------------------------------------------------
+tmp/
+temp/
+scratch/
+debug/
+*.tmp
+*.bak
